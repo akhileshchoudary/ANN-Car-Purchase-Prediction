@@ -44,7 +44,19 @@ The dataset is included in the repository for ease of use.
 ### Model Training
 
 - Compile the model using a regression-suited optimizer and loss function  
-- Train on the training set while validating performance  
+- Train on the training set while validating performance
+
+### 📉 Model Loss Progression
+
+The plot below shows the model's training and validation loss over 20 epochs.
+
+- **Training Loss** decreases steadily, indicating that the model is effectively learning patterns from the training data.
+- **Validation Loss** also follows a similar downward trend, showing good generalization to unseen data.
+- By the final epoch, validation loss stabilizes around **0.0017**, suggesting minimal overfitting and a well-trained model.
+
+![image](https://github.com/user-attachments/assets/33c7b4b7-7178-4e3d-8c17-7a4c0fa71be0)
+
+
 
 ### Model Evaluation
 
